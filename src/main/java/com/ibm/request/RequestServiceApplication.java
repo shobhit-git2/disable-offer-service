@@ -29,10 +29,11 @@ public class RequestServiceApplication {
 			}
 		};
 	}
-
+/*
 	@Bean
 	@LoadBalanced
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
+*/
 }
