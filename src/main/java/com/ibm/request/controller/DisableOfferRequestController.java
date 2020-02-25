@@ -39,7 +39,7 @@ public class DisableOfferRequestController {
 	private static final Logger logger = LoggerFactory.getLogger(DisableOfferRequestController.class);
 
 
-	private static final String USER_SERVICE_URL = "http://user-service/api/v1/user/disableOffer";
+	private static final String USER_SERVICE_URL = "http://user-service2-marketingoffersadmin.192.168.99.118.nip.io/api/v1/user/disableOffer";
 	@Autowired
 	private RestTemplate restTemplate;
 
